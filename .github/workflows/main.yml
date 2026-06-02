@@ -11,7 +11,7 @@ jobs:
       contents: write  # 核心写权限，必须保留
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 1 
           token: ${{ secrets.GITHUB_TOKEN }}
